@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background: #302e2e;
+    color: rgb(248, 247, 244);
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  flex-direction: column;
+  word-spacing: 10px;
+  line-height: 40px;
+}
+
+input{
+    margin: 10px;
+    padding: 10px;
+    outline: none;
+}
